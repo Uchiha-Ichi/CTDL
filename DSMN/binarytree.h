@@ -125,11 +125,3 @@ void input(){
       bst.insertNode(su);
     }
 }
-signed main (){
-    input();
-    
-    char s[50];cin >> s;
-    char s2[10]; cin >> s2;
-    bst.hieuChinhCode(s,s2);
-    bst.inOderNode();
-}
